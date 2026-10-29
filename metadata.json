@@ -1,0 +1,6 @@
+{
+  "name": "policy-assistant",
+  "description": "RAG + OCR system that answers questions over insurance policy PDFs with page-level citations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

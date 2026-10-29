@@ -1,0 +1,27 @@
+# policy-assistant dependencies
+# Core parsing & OCR
+pymupdf==1.25.3
+pytesseract==0.3.13
+pillow==10.4.0
+
+# Direct vector search & embeddings (no LangChain / LlamaIndex)
+sentence-transformers==3.4.1
+faiss-cpu==1.9.0.post1
+
+# Backend API
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+python-multipart==0.0.20
+
+# LLM Providers (Direct SDKs / HTTP)
+google-genai==1.2.0
+httpx==0.28.1
+
+# Frontend UI
+streamlit==1.41.1
+
+# Testing & Dev
+pytest==8.3.4

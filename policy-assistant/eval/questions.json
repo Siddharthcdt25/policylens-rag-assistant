@@ -1,0 +1,72 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the liability limit for Coverage A dwelling?",
+    "expected_page": 1,
+    "expected_keywords": ["450,000", "Dwelling", "Coverage A"],
+    "category": "coverage_limits"
+  },
+  {
+    "id": "q2",
+    "question": "What is the standard deductible for dwelling coverage per occurrence?",
+    "expected_page": 1,
+    "expected_keywords": ["1,000", "deductible", "Coverage A"],
+    "category": "deductibles"
+  },
+  {
+    "id": "q3",
+    "question": "How are covered property losses settled under Clause 1.4?",
+    "expected_page": 1,
+    "expected_keywords": ["Replacement Cost", "180 days", "depreciation"],
+    "category": "conditions"
+  },
+  {
+    "id": "q4",
+    "question": "Are losses caused by earthquakes or landslides covered?",
+    "expected_page": 2,
+    "expected_keywords": ["Earth Movement", "Earthquake", "excluded"],
+    "category": "exclusions"
+  },
+  {
+    "id": "q5",
+    "question": "Does standard policy cover water that backs up through sewers or drains?",
+    "expected_page": 2,
+    "expected_keywords": ["sewers", "drains", "sump pump", "water damage"],
+    "category": "exclusions"
+  },
+  {
+    "id": "q6",
+    "question": "Within how many days must the insured submit a sworn proof of loss?",
+    "expected_page": 2,
+    "expected_keywords": ["60 days", "proof of loss", "DUTIES AFTER LOSS"],
+    "category": "duties"
+  },
+  {
+    "id": "q7",
+    "question": "What is the maximum coverage limit for solar panels under Endorsement R-1?",
+    "expected_page": 3,
+    "expected_keywords": ["35,000", "solar panels", "photovoltaic"],
+    "category": "rider_ocr"
+  },
+  {
+    "id": "q8",
+    "question": "What is the separate windstorm deductible for solar equipment?",
+    "expected_page": 3,
+    "expected_keywords": ["1,500", "windstorm deductible", "solar"],
+    "category": "rider_ocr"
+  },
+  {
+    "id": "q9",
+    "question": "How much coverage does the sewer and drain endorsement provide?",
+    "expected_page": 3,
+    "expected_keywords": ["15,000", "500 deductible", "sewers or drains"],
+    "category": "rider_ocr"
+  },
+  {
+    "id": "q10",
+    "question": "What is the special limit of liability for jewelry and furs lost to theft?",
+    "expected_page": 1,
+    "expected_keywords": ["2,500", "jewelry", "furs", "theft"],
+    "category": "special_limits"
+  }
+]
